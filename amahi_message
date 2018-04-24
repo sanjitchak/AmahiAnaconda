@@ -1,0 +1,3 @@
+#!/bin/bash
+/usr/bin/echo "Hello"
+#/usr/bin/printf "HELLO\n"
