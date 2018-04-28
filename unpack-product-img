@@ -1,0 +1,6 @@
+
+# unpack product.img
+# (mkdir new-product && cd new-product && unxz -c < ../product.img | cpio --extract)
+
+# pack product.img
+# (cd new-product/ && find . | cpio -c -o | xz -9cv > ../product.img)
